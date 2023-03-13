@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shape_task_tushar/hoempage.dart';
 import 'package:shape_task_tushar/page.dart';
+import 'package:shape_task_tushar/qr_code_scanner.dart';
 
 import 'country_picker.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DemoPage(),
+      home: QRViewExample(),
     );
   }
 }
